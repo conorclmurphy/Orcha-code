@@ -753,9 +753,10 @@
    ],
    "videos": [
     {
-     "id": "3719a3be-7f27-4c98-abc0-54cd6a3ad912",
+     "id": "ee4a73be-fd38-416e-9d81-2731f6c9de8d",
      "seconds": 89,
-     "shape": "tall"
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
     }
    ],
    "theme": "dj"
@@ -866,84 +867,56 @@
  },
  "faq": {
   "title": "Frequently asked questions",
-  "intro": "Everything clients usually ask us about booking live music for their event. Can't find your answer? Send us a message and we'll get back to you.",
+  "intro": "Everything you need to know about planning your event with us. Can't find your answer? Send us a message and we'll get back to you.",
   "groups": [
    {
-    "title": "Why book with us",
+    "title": "About Orcha Events",
     "items": [
      {
-      "q": "Why book with Orcha Events?",
-      "a": "Every musician on our roster is hand-picked for their live performance and event experience. You deal with one team from enquiry to the last song, professional audio and lighting are included, and your event is protected by our musician replacement and deposit guarantees."
+      "q": "What does Orcha Events do?",
+      "a": "We look after the parts that make an event: live entertainment, the venue and catering through our partners. One team takes care of everything, from your first enquiry to the night itself."
      },
      {
-      "q": "What happens if a musician is sick or can't make it?",
+      "q": "What kinds of events do you look after?",
+      "a": "Corporate events, Christmas parties, awards and gala dinners, product launches, birthdays and private parties. If you're planning something else, tell us about it."
+     },
+     {
+      "q": "Where do you work?",
+      "a": "We work with clients across Ireland and Europe."
+     }
+    ]
+   },
+   {
+    "title": "Planning your event",
+    "items": [
+     {
+      "q": "Can you find us a venue?",
+      "a": "Yes. Tell us your date, guest numbers and the kind of event you have in mind and we'll suggest venues that suit. Have a look at some of our favourite <a href=\"/venues\">venues</a>."
+     },
+     {
+      "q": "Can you arrange catering?",
+      "a": "Yes. We work with trusted catering partners and can arrange food to suit your event, from canapés to a full dinner. Just let us know what you have in mind when you enquire."
+     },
+     {
+      "q": "What entertainment can you provide?",
+      "a": "Solo singer-guitarists, a modern trad band, a jazz band, a show band, DJs, DJ and sax, and karaoke. Watch videos of all our <a href=\"/musicians\">musicians</a>."
+     },
+     {
+      "q": "How much does it cost?",
+      "a": "Every event is different, so we quote each one individually. For live music you can see starting prices on our <a href=\"/packages\">packages page</a>, or send us your details and we'll put together a quote."
+     },
+     {
+      "q": "How far in advance should we book?",
+      "a": "As early as you can, especially for Fridays, Saturdays and December, which book up months ahead. If your date is close, still get in touch, as we can often help at short notice."
+     }
+    ]
+   },
+   {
+    "title": "Peace of mind",
+    "items": [
+     {
+      "q": "What if a performer can't make it?",
       "a": "You're covered by our musician replacement guarantee. If your musician is ill or can't perform for any reason, we'll arrange a replacement of the same standard from our roster, so your event goes ahead with great live music."
-     },
-     {
-      "q": "Is my deposit protected?",
-      "a": "Yes. Your deposit is covered by our deposit guarantee. If we can't provide the music you've booked, you won't lose out."
-     }
-    ]
-   },
-   {
-    "title": "Booking & prices",
-    "items": [
-     {
-      "q": "How much does live music cost?",
-      "a": "Prices depend on the musicians you choose and the extras you add. Every booking includes a 2-hour performance per act plus professional audio and lighting. You can build your own package and see an estimated price on our <a href=\"/packages\">packages page</a>, or send us your date and we'll send you a quote."
-     },
-     {
-      "q": "How do I book?",
-      "a": "Send us an enquiry with your date and the musicians you like (or <a href=\"/packages\">build your package</a>). We'll check availability and come back to you by email. To secure your date we take a deposit, and the balance is paid on the day."
-     },
-     {
-      "q": "Can I choose a specific musician?",
-      "a": "Yes. Every musician has their own page with videos and a bio. We'd suggest picking a few favourites in case your first choice is already booked on your date, or tell us what you're after and we'll match you with someone great."
-     },
-     {
-      "q": "How far in advance should I book?",
-      "a": "As soon as you have your date. Weekends and the Christmas party season are our busiest, and the most popular musicians get booked up early."
-     },
-     {
-      "q": "Do you charge for travel?",
-      "a": "Additional travel fees may apply depending on where your event is. We'll let you know the full price before you book."
-     },
-     {
-      "q": "Do you provide invoices for companies?",
-      "a": "Yes. We work with companies of all sizes and can invoice your business directly. Just add your company name when you enquire."
-     }
-    ]
-   },
-   {
-    "title": "The music",
-    "items": [
-     {
-      "q": "What kind of music do your musicians play?",
-      "a": "A mix of modern hits, classic singalongs and Irish favourites, tailored to your crowd. Whether you want relaxed background music for a drinks reception or the whole room up dancing, we'll match the music to the moment."
-     },
-     {
-      "q": "Can we request songs?",
-      "a": "Most of our musicians are happy to take requests. Let us know any must-play songs, or songs to avoid, when you enquire or in the lead-up to your event."
-     },
-     {
-      "q": "What bands do you offer?",
-      "a": "We have a <a href=\"/trad\">modern trad band</a> (duo or trio), a <a href=\"/jazz\">jazz band</a> (3, 4 or 5-piece) for corporate dinners and receptions, and a <a href=\"/showband\">show band</a> of up to 7 musicians for a high-energy party."
-     },
-     {
-      "q": "Can we add a DJ, karaoke or sax?",
-      "a": "Yes. A DJ is a great way to keep the party going after the live music, and you can add karaoke or a live saxophonist to the DJ. You can see prices on our <a href=\"/packages\">packages page</a>."
-     },
-     {
-      "q": "Can we have more than 2 hours of music?",
-      "a": "Absolutely. You can book two musicians back to back, or a solo musician followed by a band and DJ. Have a look at the <a href=\"/packages\">packages</a>."
-     },
-     {
-      "q": "Do you bring your own sound and lighting?",
-      "a": "Yes. Every booking includes professional audio and lighting, so there's nothing extra for you or your venue to organise."
-     },
-     {
-      "q": "Do you work with our venue?",
-      "a": "We play venues all over Ireland. Have a look at our <a href=\"/venues\">venues</a> page for some of the places we love, and tell us your venue when you enquire."
      }
     ]
    }

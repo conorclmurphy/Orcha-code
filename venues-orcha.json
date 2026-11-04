@@ -260,8 +260,9 @@
      "capacity": "Up to 140 guests (70 seated)",
      "description": "The Corn Exchange Bar is one of Ireland's most unique and breathtaking private event spaces. Accommodating up to 140 guests, with seating for 70, the space boasts high open ceilings and stunning views of Dublin City Centre.",
      "video": {
-      "id": "7a69891c-0d11-4905-b71f-ad81bdb6318d",
-      "seconds": 69
+      "id": "8a9a425e-f7b6-4818-949d-0e935e7c2af0",
+      "seconds": 69,
+      "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
      },
      "gallery": [
       "f4ef5930-c009-4993-86d8-cdb972e5f08b/IMG_6017.jpeg",
