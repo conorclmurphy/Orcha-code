@@ -8,7 +8,7 @@
      </script>
    The questions and answers live in musicians.json under "faq". */
 (function () {
-  var DATA_URL = 'https://raw.githubusercontent.com/conorclmurphy/Orcha-code/main/musicians.json';
+  var DATA_URL = 'https://raw.githubusercontent.com/conorclmurphy/Orcha-code/main/musicians-orcha.json';
   var root = document.getElementById('faq-page');
   if (!root) return;
 

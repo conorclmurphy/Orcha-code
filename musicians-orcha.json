@@ -1,0 +1,952 @@
+{
+ "_notes": "Musician data for orchaevents.com. Same photos and videos as Wedding Day 2 (imageBase/videoBase). A photo can also be a full https:// link, and a video can have its own 'base' (used for videos stored on the Orcha site). Do not add prices here except in the packages section. 'formAccessKey' is the Web3Forms key for Orcha enquiries.",
+ "imageBase": "https://images.squarespace-cdn.com/content/v1/68e3e2b74d7ab5214f499b88/",
+ "videoBase": "https://video.squarespace-cdn.com/content/v1/68e3e2b74d7ab5214f499b88/",
+ "formAccessKey": "",
+ "eventLabels": {},
+ "musicians": [
+  {
+   "slug": "lee",
+   "name": "Lee",
+   "live": true,
+   "url": "https://www.orchaevents.com/lee",
+   "photo": "1395aa16-009f-4ba4-8e68-8cd5112cd820/329bc0df-e30c-448a-b291-45c8c34c03a2.JPG",
+   "bio": [
+    "Lee is a professional singer-guitarist specialising in private and corporate events. Blending modern hits, classic anthems and Irish favourites, he delivers high-energy, singalong sets tailored to each event.",
+    "Known for seamless medleys and having fun with the crowd, he keeps the dance floor full from start to finish and happily takes requests."
+   ],
+   "events": [],
+   "tradBand": true,
+   "duo": true,
+   "videos": [
+    {
+     "id": "9a2f7d47-f2a0-4712-b478-10a0a8f24dba",
+     "seconds": 61,
+     "shape": "wide",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": [],
+   "photoPosition": "center 10%"
+  },
+  {
+   "slug": "mathew",
+   "name": "Matthew",
+   "live": true,
+   "url": "https://www.orchaevents.com/mathew",
+   "photo": "17755a54-0b89-43df-a009-d892e7f6c446/IMG_5769.jpeg",
+   "bio": [
+    "Hailing from the West of Ireland, Matthew is a seasoned musician known for bringing energy, atmosphere and unforgettable live performances to events across the country.",
+    "With years of experience playing hundreds of shows, appearances on national TV and performances at major festivals, he combines powerful vocals with top-class guitar playing to keep every crowd entertained from start to finish."
+   ],
+   "events": [],
+   "tradBand": true,
+   "duo": true,
+   "videos": [
+    {
+     "id": "b385e183-2851-47e2-b1ed-ef869ad95f81",
+     "seconds": 38,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "conorc",
+   "name": "Conor C",
+   "live": true,
+   "url": "https://www.orchaevents.com/conorc",
+   "photo": "5dc0516c-4af0-4318-aa6c-ce8ad8cbf1ea/vlcsnap-2025-02-13-18h04m19s550.png",
+   "bio": [
+    "With over eight years of experience and performances at more than 1,000 events across Ireland, Conor has developed a versatile show that can be tailored to your specific needs.",
+    "Unlike most solo performers, Conor uses a unique set of tools and techniques to create a fully live music experience that cannot be replicated."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "b94183fb-ff65-4b01-9561-a69681e54a92",
+     "seconds": 89,
+     "shape": "wide",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/",
+     "poster": "5dc0516c-4af0-4318-aa6c-ce8ad8cbf1ea/vlcsnap-2025-02-13-18h04m19s550.png"
+    },
+    {
+     "id": "b0014892-3b8c-41fe-ab49-fb27db290ae5",
+     "seconds": 55,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "conort",
+   "name": "Conor T",
+   "live": true,
+   "url": "https://www.orchaevents.com/conort",
+   "photo": "916c1eda-00b0-4173-ba89-bd301ba5f0cf/DSC08047.jpeg",
+   "bio": [
+    "Conor has nearly a decade of experience performing at events across Ireland and internationally.",
+    "Through this, he has built a unique and lively sound which gives the energy of a full band in a more personal setup. He also covers a wide mix of hits to keep the night flowing."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "f024ff93-71c2-4bc5-abd2-4a245358033c",
+     "seconds": 17,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "d0f178b3-2cfc-4565-8b4e-074886b18f0c",
+     "seconds": 40,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "a716adfa-de35-48ae-a035-4c8206fd9533",
+     "seconds": 66,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "cathal",
+   "name": "Cathal",
+   "live": true,
+   "url": "https://www.orchaevents.com/cathal",
+   "photo": "2eb4141a-1e60-491f-bf29-3abd5879ac2c/image00001.jpg",
+   "bio": [
+    "Cathal is a professional singer and guitarist with over ten years' experience on some of Ireland and the UK's biggest stages.",
+    "Whether you want a relaxed, mellow atmosphere early in your event or an upbeat, feel-good vibe later into the night, Cathal has the setlist for you."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": true,
+   "videos": [
+    {
+     "id": "fe5332ae-140a-4809-9c10-a4d274951418",
+     "seconds": 168,
+     "shape": "wide",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "ba1602d2-c5b4-4a35-99ca-2b4aa81ae503",
+     "seconds": 169,
+     "shape": "tall"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "josh",
+   "name": "Josh",
+   "live": true,
+   "url": "https://www.orchaevents.com/josh",
+   "photo": "bdca61da-023e-41a9-85f2-bca8ec528a2c/A+few+from+Gorey+Market+Festival+during+summer%2C+never+got+around+to+posting+but+better+late+tha.jpg",
+   "bio": [
+    "Josh is an incredibly talented musician who has performed at events and festivals all across Ireland.",
+    "Playing a mix of Irish favourites and dance classics on guitar, he creates the perfect atmosphere for any evening. With years of experience entertaining crowds, Josh brings great energy and plenty of craic to every event."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "1785929147067-2N0O4RBYZBXKR3PE7TRL",
+     "seconds": 39,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "1785929147075-1AIO4X51X18TJO31NKSR",
+     "seconds": 20,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "emmett",
+   "name": "Emmett",
+   "live": true,
+   "url": "https://www.orchaevents.com/emmett",
+   "photo": "1be21321-ae4d-4d04-8c02-a572843bc5a9/d9c84d1d-3f06-480d-8693-3057fac66db4.jpg",
+   "bio": [
+    "Emmett is a professional singer-guitarist specialising in private and corporate events across Ireland.",
+    "With a relaxed acoustic style and a repertoire spanning modern chart hits, timeless classics and Irish favourites, he creates the perfect atmosphere for every event. Every performance is tailored to suit the guests, so the music feels personal and memorable."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": true,
+   "videos": [
+    {
+     "id": "1785929128372-WSTHHUQHRMLYMPWA7PYR",
+     "seconds": 52,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "alan",
+   "name": "Alan",
+   "live": true,
+   "url": "https://www.orchaevents.com/alan",
+   "photo": "e9c88448-3601-4f1d-a4ed-97fac294db67/DSC00499_Original.jpg",
+   "bio": [
+    "Alan is a singer-songwriter and multi-instrumentalist who has won two National Song Contests as well as an IMRO award.",
+    "Alan has played with some of the biggest acts in Ireland and the UK, including The Coronas, Mundy, 5ive and Aslan, and has been playing music all over the world for the past 15 years.",
+    "He plays a wide range of music from the 60s up to the hits of today, as well as some traditional music, to make the perfect soundtrack to your event."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": true,
+   "videos": [
+    {
+     "id": "1785929160792-E9G310VITA2LOL82DCPW",
+     "seconds": 36,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "paddy",
+   "name": "Paddy",
+   "live": true,
+   "url": "https://www.orchaevents.com/paddy",
+   "photo": "61177bb8-b576-471c-98e0-d7ecc9b1670c/643013585_17903142396223292_1135127215236511091_n.jpeg",
+   "bio": [
+    "Paddy is a Galway-based musician with over 10 years of experience playing live events.",
+    "He's known for keeping things relaxed while still getting people on the dance floor, mixing crowd favourites with a few personal touches and the occasional harmonica."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "1785929121817-25194I57SCIDSD9PC3PK",
+     "seconds": 53,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "craig",
+   "name": "Craig",
+   "live": true,
+   "url": "https://www.orchaevents.com/craig",
+   "photo": "c1fa1f0d-38e1-4c50-b375-b9f368c1094b/craig-photo-no-sign2.jpg",
+   "bio": [
+    "Craig is a live musician known for his strong vocal ability and high-energy performances.",
+    "With a natural talent for reading the crowd, he keeps the vibe upbeat and engaging from start to finish.",
+    "With years of experience entertaining crowds across Ireland, he has built a setlist featuring modern hits, creative mashups and classic singalong favourites."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": true,
+   "videos": [
+    {
+     "id": "1785929107348-DRXSL7QP5TZDWIEFS6W0",
+     "seconds": 67,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": [],
+   "photoPosition": "center 34%"
+  },
+  {
+   "slug": "pauric",
+   "name": "Pauric",
+   "live": true,
+   "url": "https://www.orchaevents.com/pauric",
+   "photo": "6f7123ef-c113-43fc-acce-818c1121f490/Getting+my+facial+expressions+ready+for+2024%2C+oooft%2C+big+one%F0%9F%93%B7+%40luke_b__photo+%281%29.jpg",
+   "bio": [
+    "Pauric is an incredibly gifted guitarist and outstanding singer who brings the perfect atmosphere to any setting.",
+    "His style blends popular contemporary songs with touches of traditional Irish music, creating a warm, lively and memorable experience for guests of all ages.",
+    "Whether performing laid-back acoustic favourites or getting everyone up dancing and singing along, Pauric's talent, charm and love of music make him a highlight of any event."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "5e0e5c21-25e0-4ff5-8694-da249ae69c6a",
+     "seconds": 59,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "karl",
+   "name": "Karl",
+   "live": true,
+   "url": "https://www.orchaevents.com/karl",
+   "photo": "69044396-2c04-4b67-acca-690d6e15f36d/copy_E566B8C9-484D-45D3-BE09-3864F0978D28.JPEG",
+   "bio": [
+    "Karl is a Dublin-based singer, guitarist and multi-instrumentalist with over 18 years of professional performing experience.",
+    "Since beginning his career on the Irish pub circuit in 2008, Karl has performed at more than 1,000 private events and corporate functions across Ireland, Europe and South America.",
+    "Whether it's creating the perfect atmosphere for a relaxed event or getting a crowd singing along late into the evening, Karl tailors every performance to suit the occasion."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "1785929142229-ESSZXT9YPG2P8PXFNNJZ",
+     "seconds": 59,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "1785929142236-CUAJPWG4FLOQ0AE04AO0",
+     "seconds": 56,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "andrew",
+   "name": "Andrew",
+   "live": true,
+   "url": "https://www.orchaevents.com/andrew",
+   "photo": "4b2e06cc-842b-4683-8bba-0a63a7883d11/The+INEC%2C+Killarney.It+was+an+honour+to+perform+this+weekend+on+the+same+stage+as+so+many+of+Ire.jpg",
+   "bio": [
+    "Andrew is an experienced Irish musician who has performed at events across Ireland and the U.S.",
+    "Known for his relaxed style and wide-ranging setlist, he adapts to every crowd, whether it's the perfect soundtrack for a drinks reception or getting guests singing along later in the evening.",
+    "He has an incredible voice and is passionate about live music, bringing great energy to every event."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": true,
+   "videos": [
+    {
+     "id": "1785929125300-S8OXEFJ2PO476VIRXLWR",
+     "seconds": 48,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "1785929125307-JWIXALWC2Y4CBV86R212",
+     "seconds": 71,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "james",
+   "name": "James",
+   "live": true,
+   "url": "https://www.orchaevents.com/james",
+   "photo": "59104ed9-097f-414b-b869-730f1da10d70/IMG_6211.JPG",
+   "bio": [
+    "James is an incredibly talented guitarist and vocalist, bringing a relaxed style, great energy and a wide range of popular songs to private events.",
+    "With a passion for live music, James creates the perfect atmosphere and keeps guests entertained throughout the occasion."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "1785929173159-AJ46T29LUA24BRACS9NL",
+     "seconds": 90,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "cian",
+   "name": "Cian",
+   "live": true,
+   "url": "https://www.orchaevents.com/cian",
+   "photo": "fafe5387-96fe-4348-b492-b14472244729/Cian+Morrin+Photo.jpeg",
+   "bio": [
+    "Cian, a Mayo-born musician, has been singing and playing the guitar for two decades and is a familiar face in the lively Temple Bar area.",
+    "He enjoys playing a mix of modern and classic songs in rock, pop and folk styles. With dynamic and engaging performances, Cian has captivated music lovers throughout Ireland and abroad."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [
+    {
+     "id": "1785929115111-1YWFNTLA9RI082B5MQ1A",
+     "seconds": 32,
+     "shape": "wide",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "slug": "trad",
+   "name": "Modern Trad Band",
+   "live": true,
+   "listed": false,
+   "url": "https://www.orchaevents.com/trad",
+   "eyebrow": "Modern trad band",
+   "photo": "0f16f2b1-d018-4881-9200-3d4fccb2bbd9/780dba9a-26a9-4f8b-9bbd-9b30d045d6d2.JPG",
+   "bio": [
+    "Performing as a two-piece or three-piece, our Modern Trad Band blends current songs with Irish favourites as well as trad instrumentals.",
+    "Perfect as a stand-alone act or as an add-on to one of our solo musicians, the band is completely customisable to suit your event."
+   ],
+   "facts": [
+    {
+     "label": "Line-up",
+     "value": "Duo or trio"
+    }
+   ],
+   "tags": [
+    "Duo",
+    "Trio",
+    "Fiddle",
+    "Banjo"
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "builder": {
+    "step1": "Choose your line-up",
+    "lineups": [
+     {
+      "title": "Duo",
+      "text": "Solo musician plus a fiddle or banjo player."
+     },
+     {
+      "title": "Trio",
+      "text": "Solo musician plus fiddle and banjo."
+     }
+    ]
+   },
+   "videos": [
+    {
+     "id": "bb217fd8-08ae-4a01-bc7b-bd21915d56bc",
+     "seconds": 41,
+     "shape": "wide",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "gallery": [],
+   "aboutTitle": "About our Modern Trad Band",
+   "related": [
+    "trad",
+    "jazz",
+    "showband"
+   ],
+   "relatedTitle": "Our bands",
+   "cardText": "Current songs, Irish favourites and trad instrumentals."
+  },
+  {
+   "live": true,
+   "listed": false,
+   "tradBand": false,
+   "duo": false,
+   "events": [],
+   "related": [
+    "trad",
+    "jazz",
+    "showband"
+   ],
+   "relatedTitle": "Our bands",
+   "fieldLabel": "Booking",
+   "gallery": [],
+   "slug": "jazz",
+   "name": "Jazz Band",
+   "url": "https://www.orchaevents.com/jazz",
+   "eyebrow": "Jazz band",
+   "photo": "https://images.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/1790357190913-GUWDC1C99LY0HFU40NJD/unsplash-image-dBWvUqBoOU8.jpg",
+   "aboutTitle": "About our jazz band",
+   "subjectName": "Jazz band",
+   "formTitle": "Book the jazz band",
+   "cardText": "Elegant live jazz for dinners, receptions and awards.",
+   "facts": [
+    {
+     "label": "Line-up",
+     "value": "3, 4 or 5-piece"
+    }
+   ],
+   "tags": [
+    "Corporate dinners",
+    "Awards & receptions",
+    "Networking events"
+   ],
+   "bio": [
+    "Performing as a 3, 4 or 5-piece band, our house jazz ensemble brings elegant, sophisticated live music to corporate events. With a versatile line-up and refined playing style, the band can be tailored to suit the size, atmosphere and requirements of your event.",
+    "Perfect for corporate dinners, awards ceremonies, networking events, conferences, receptions and company celebrations, our flexible setup provides the ideal musical backdrop for any professional occasion."
+   ],
+   "videos": [
+    {
+     "id": "554642e0-2e67-4650-8591-1ba788b50248",
+     "seconds": 50,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "5639e514-54b9-4c8d-ac3e-0a072ea9304e",
+     "seconds": 119,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ]
+  },
+  {
+   "live": true,
+   "listed": false,
+   "tradBand": false,
+   "duo": false,
+   "events": [],
+   "related": [
+    "trad",
+    "jazz",
+    "showband"
+   ],
+   "relatedTitle": "Our bands",
+   "fieldLabel": "Booking",
+   "gallery": [],
+   "slug": "showband",
+   "name": "Show Band",
+   "url": "https://www.orchaevents.com/showband",
+   "eyebrow": "Show band",
+   "photo": "https://images.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/1789614005659-BZNJFI0ZP9S01FK68GO6/unsplash-image-Cknyec2RnrE.jpg",
+   "aboutTitle": "About our show band",
+   "subjectName": "Show band",
+   "formTitle": "Book the show band",
+   "cardText": "A high-energy live show with up to 7 musicians.",
+   "facts": [
+    {
+     "label": "Line-up",
+     "value": "Up to 7 musicians"
+    }
+   ],
+   "tags": [
+    "Classic anthems",
+    "Soul & funk",
+    "Party favourites"
+   ],
+   "bio": [
+    "Our show band delivers a high-energy live performance with a versatile line-up of up to 7 musicians, combining powerful vocals, exceptional musicianship and an engaging stage presence.",
+    "With a repertoire spanning classic anthems, soul, funk, pop and modern party favourites, the band is designed to bring the energy and entertainment to your event."
+   ],
+   "videos": [
+    {
+     "id": "0b3bf680-b27b-4d43-8cf3-849bd0e20032",
+     "seconds": 34,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ]
+  },
+  {
+   "slug": "packages",
+   "name": "Build your package",
+   "live": true,
+   "listed": false,
+   "url": "https://www.orchaevents.com/packages",
+   "eyebrow": "Packages",
+   "aboutTitle": "How it works",
+   "photo": "4607cdf0-49f9-4c37-93e1-52bb721c9d54/unsplash-image-1h-64bCdVUI.jpg",
+   "bio": [
+    "Pick a solo musician, a band or a DJ, add any extras, and see your package and starting price. Your choices fill in the booking form for you."
+   ],
+   "facts": [
+    {
+     "label": "Solo musicians",
+     "value": "From €650"
+    },
+    {
+     "label": "Packages",
+     "value": "From €1,300"
+    }
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "packages": {
+    "soloFrom": 650,
+    "djFrom": 750,
+    "soloText": "One of our singer-guitarists. Includes a 2-hour performance plus professional audio and lighting.",
+    "extras": [
+     {
+      "id": "second",
+      "title": "Second solo musician",
+      "text": "Two musicians back to back, 4 hours of live music.",
+      "image": "17755a54-0b89-43df-a009-d892e7f6c446/IMG_5769.jpeg"
+     },
+     {
+      "id": "trad",
+      "title": "Add a band",
+      "text": "Your solo musician, followed by a band.",
+      "image": "0f16f2b1-d018-4881-9200-3d4fccb2bbd9/780dba9a-26a9-4f8b-9bbd-9b30d045d6d2.JPG"
+     },
+     {
+      "id": "dj",
+      "title": "DJ",
+      "text": "Keep the party going after the live music.",
+      "image": "1790686604144-1P7VD3AVMOQO8IB957TI/unsplash-image-ttv1pX6tk7o.jpg"
+     }
+    ],
+    "lineups": [
+     {
+      "title": "Duo",
+      "text": "Solo musician + fiddle or banjo.",
+      "price": "On its own from €1,150"
+     },
+     {
+      "title": "Trio",
+      "text": "Solo musician + fiddle + banjo.",
+      "price": "On its own from €1,500"
+     }
+    ],
+    "djExtras": [
+     {
+      "title": "Karaoke",
+      "price": 250,
+      "text": "Hand the mic to your guests.",
+      "image": "1790699848604-H16VA8BSP7PD0RD8C0KQ/unsplash-image-6_1tYvLLZqo.jpg"
+     },
+     {
+      "title": "Saxophone",
+      "price": 650,
+      "priceFrom": true,
+      "text": "A live sax player alongside the DJ.",
+      "image": "cca93cb1-94fe-4860-a650-152bf3cd2039/sax+dj%281%29.jpg",
+      "imagePosition": "center 6%"
+     }
+    ],
+    "list": [
+     {
+      "id": "double-trouble",
+      "title": "Double Trouble",
+      "hours": "4 hours of live music",
+      "text": "Solo musician + solo musician (2 × €650)",
+      "from": 1300,
+      "extras": [
+       "second"
+      ],
+      "image": "1395aa16-009f-4ba4-8e68-8cd5112cd820/329bc0df-e30c-448a-b291-45c8c34c03a2.JPG",
+      "imagePosition": "center 25%"
+     },
+     {
+      "id": "celebration",
+      "title": "The Celebration",
+      "hours": "4 hours of live music",
+      "text": "Solo musician + DJ",
+      "from": 1650,
+      "extras": [
+       "dj"
+      ],
+      "image": "1790686604144-1P7VD3AVMOQO8IB957TI/unsplash-image-ttv1pX6tk7o.jpg"
+     },
+     {
+      "id": "party",
+      "title": "The Party",
+      "hours": "4 hours of live music",
+      "text": "Solo musician, followed by a trad band",
+      "from": 2250,
+      "extras": [
+       "trad"
+      ],
+      "image": "0f16f2b1-d018-4881-9200-3d4fccb2bbd9/780dba9a-26a9-4f8b-9bbd-9b30d045d6d2.JPG"
+     },
+     {
+      "id": "full-experience",
+      "title": "The Full Experience",
+      "hours": "6 hours of live music",
+      "text": "Solo musician, followed by a trad band, then a DJ",
+      "from": 3250,
+      "extras": [
+       "trad",
+       "dj"
+      ],
+      "image": "fafe5387-96fe-4348-b492-b14472244729/Cian+Morrin+Photo.jpeg"
+     }
+    ],
+    "note": "Prices are a starting guide and vary depending on the musicians you choose and the extras you add. Additional travel fees may apply based on your event location.",
+    "duoFrom": 1150,
+    "trioFrom": 1500,
+    "bands": [
+     {
+      "title": "Trad duo",
+      "kind": "trad",
+      "from": 1150
+     },
+     {
+      "title": "Trad trio",
+      "kind": "trad",
+      "from": 1500
+     },
+     {
+      "title": "Jazz band",
+      "kind": "jazz",
+      "from": null
+     },
+     {
+      "title": "Show band",
+      "kind": "show",
+      "from": null
+     }
+    ]
+   },
+   "videos": [],
+   "gallery": [],
+   "formTitle": "Book your package",
+   "subjectName": "Package"
+  },
+  {
+   "live": true,
+   "listed": false,
+   "tradBand": false,
+   "duo": false,
+   "events": [],
+   "related": [
+    "djs",
+    "saxdj",
+    "karaoke"
+   ],
+   "relatedTitle": "Our DJ options",
+   "fieldLabel": "Booking",
+   "gallery": [],
+   "slug": "djs",
+   "name": "DJ",
+   "url": "https://www.orchaevents.com/djs",
+   "eyebrow": "DJ",
+   "photo": "1790686604144-1P7VD3AVMOQO8IB957TI/unsplash-image-ttv1pX6tk7o.jpg",
+   "aboutTitle": "About our DJs",
+   "subjectName": "DJ",
+   "formTitle": "Book a DJ",
+   "cardText": "Keep the dance floor full all night.",
+   "facts": [
+    {
+     "label": "Add-ons",
+     "value": "Karaoke · Sax"
+    }
+   ],
+   "tags": [
+    "Evening entertainment",
+    "Audio & lighting included"
+   ],
+   "bio": [
+    "Keep the celebrations going with a professional Orcha Events DJ who knows how to create an unforgettable party atmosphere.",
+    "Our experienced DJs read the room and keep the dance floor packed from the first song to the very last. Every DJ set includes professional audio and lighting.",
+    "Want to take it further? Add a live saxophonist or karaoke to your DJ set."
+   ],
+   "videos": [
+    {
+     "id": "3719a3be-7f27-4c98-abc0-54cd6a3ad912",
+     "seconds": 89,
+     "shape": "tall"
+    }
+   ],
+   "theme": "dj"
+  },
+  {
+   "live": true,
+   "listed": false,
+   "tradBand": false,
+   "duo": false,
+   "events": [],
+   "related": [
+    "djs",
+    "saxdj",
+    "karaoke"
+   ],
+   "relatedTitle": "Our DJ options",
+   "fieldLabel": "Booking",
+   "gallery": [],
+   "slug": "saxdj",
+   "name": "DJ & Sax",
+   "url": "https://www.orchaevents.com/djsax",
+   "eyebrow": "DJ & Sax",
+   "photo": "1790689871080-8WIO3TGIE15KM4NU3JNM/sax+dj%281%29.jpg",
+   "photoPosition": "center 6%",
+   "cardPosition": "center 6%",
+   "aboutTitle": "About our DJ & Sax option",
+   "subjectName": "DJ & Sax",
+   "formTitle": "Book DJ & Sax",
+   "cardText": "A DJ with a live sax player. A live twist on the party.",
+   "facts": [
+    {
+     "label": "Made up of",
+     "value": "DJ + live saxophonist"
+    }
+   ],
+   "tags": [
+    "Evening entertainment",
+    "Live saxophone"
+   ],
+   "bio": [
+    "Take your DJ set to the next level with one of our talented live saxophone players.",
+    "Combining the energy of a live sax performance with the seamless flow of a professional DJ set creates an unforgettable atmosphere for you and your guests. Our saxophonists blend effortlessly with the music and adapt to the mood of the event.",
+    "It's the perfect way to add a unique, vibrant and sophisticated touch to your event."
+   ],
+   "videos": [
+    {
+     "id": "70b62c0a-e61f-4829-a39b-40c454a6f17c",
+     "seconds": 40,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
+   "theme": "dj"
+  },
+  {
+   "live": true,
+   "listed": false,
+   "tradBand": false,
+   "duo": false,
+   "events": [],
+   "related": [
+    "djs",
+    "saxdj",
+    "karaoke"
+   ],
+   "relatedTitle": "Our DJ options",
+   "fieldLabel": "Booking",
+   "gallery": [],
+   "slug": "karaoke",
+   "name": "Karaoke",
+   "url": "https://www.orchaevents.com/karaoke",
+   "eyebrow": "Karaoke",
+   "photo": "1790691955224-RYJR38KHD66KUXJBYZWD/unsplash-image-6_1tYvLLZqo.jpg",
+   "aboutTitle": "About our karaoke",
+   "subjectName": "DJ & Karaoke",
+   "formTitle": "Book DJ & Karaoke",
+   "cardText": "A DJ with karaoke. Hand the mic to your guests.",
+   "facts": [
+    {
+     "label": "Made up of",
+     "value": "DJ + karaoke set-up"
+    }
+   ],
+   "tags": [
+    "Evening entertainment",
+    "Thousands of songs"
+   ],
+   "bio": [
+    "Hand the mic to your guests with our karaoke add-on, run alongside your DJ.",
+    "It includes fully licensed karaoke software with thousands of high-quality backing tracks across every genre, plus professional sound equipment, microphones and everything needed for a smooth, fun karaoke session.",
+    "Karaoke can be added to any DJ booking."
+   ],
+   "videos": [],
+   "theme": "dj"
+  }
+ ],
+ "djCard": {
+  "url": "https://www.orchaevents.com/djs",
+  "image": "1790686604144-1P7VD3AVMOQO8IB957TI/unsplash-image-ttv1pX6tk7o.jpg",
+  "title": "Our DJ options",
+  "text": "DJs, DJ & Sax and Karaoke"
+ },
+ "tradCard": {
+  "url": "https://www.orchaevents.com/trad",
+  "image": "0f16f2b1-d018-4881-9200-3d4fccb2bbd9/780dba9a-26a9-4f8b-9bbd-9b30d045d6d2.JPG",
+  "title": "Our bands",
+  "text": "Modern trad, jazz band and show band"
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "intro": "Everything clients usually ask us about booking live music for their event. Can't find your answer? Send us a message and we'll get back to you.",
+  "groups": [
+   {
+    "title": "Why book with us",
+    "items": [
+     {
+      "q": "Why book with Orcha Events?",
+      "a": "Every musician on our roster is hand-picked for their live performance and event experience. You deal with one team from enquiry to the last song, professional audio and lighting are included, and your event is protected by our musician replacement and deposit guarantees."
+     },
+     {
+      "q": "What happens if a musician is sick or can't make it?",
+      "a": "You're covered by our musician replacement guarantee. If your musician is ill or can't perform for any reason, we'll arrange a replacement of the same standard from our roster, so your event goes ahead with great live music."
+     },
+     {
+      "q": "Is my deposit protected?",
+      "a": "Yes. Your deposit is covered by our deposit guarantee. If we can't provide the music you've booked, you won't lose out."
+     }
+    ]
+   },
+   {
+    "title": "Booking & prices",
+    "items": [
+     {
+      "q": "How much does live music cost?",
+      "a": "Prices depend on the musicians you choose and the extras you add. Every booking includes a 2-hour performance per act plus professional audio and lighting. You can build your own package and see an estimated price on our <a href=\"/packages\">packages page</a>, or send us your date and we'll send you a quote."
+     },
+     {
+      "q": "How do I book?",
+      "a": "Send us an enquiry with your date and the musicians you like (or <a href=\"/packages\">build your package</a>). We'll check availability and come back to you by email. To secure your date we take a deposit, and the balance is paid on the day."
+     },
+     {
+      "q": "Can I choose a specific musician?",
+      "a": "Yes. Every musician has their own page with videos and a bio. We'd suggest picking a few favourites in case your first choice is already booked on your date, or tell us what you're after and we'll match you with someone great."
+     },
+     {
+      "q": "How far in advance should I book?",
+      "a": "As soon as you have your date. Weekends and the Christmas party season are our busiest, and the most popular musicians get booked up early."
+     },
+     {
+      "q": "Do you charge for travel?",
+      "a": "Additional travel fees may apply depending on where your event is. We'll let you know the full price before you book."
+     },
+     {
+      "q": "Do you provide invoices for companies?",
+      "a": "Yes. We work with companies of all sizes and can invoice your business directly. Just add your company name when you enquire."
+     }
+    ]
+   },
+   {
+    "title": "The music",
+    "items": [
+     {
+      "q": "What kind of music do your musicians play?",
+      "a": "A mix of modern hits, classic singalongs and Irish favourites, tailored to your crowd. Whether you want relaxed background music for a drinks reception or the whole room up dancing, we'll match the music to the moment."
+     },
+     {
+      "q": "Can we request songs?",
+      "a": "Most of our musicians are happy to take requests. Let us know any must-play songs, or songs to avoid, when you enquire or in the lead-up to your event."
+     },
+     {
+      "q": "What bands do you offer?",
+      "a": "We have a <a href=\"/trad\">modern trad band</a> (duo or trio), a <a href=\"/jazz\">jazz band</a> (3, 4 or 5-piece) for corporate dinners and receptions, and a <a href=\"/showband\">show band</a> of up to 7 musicians for a high-energy party."
+     },
+     {
+      "q": "Can we add a DJ, karaoke or sax?",
+      "a": "Yes. A DJ is a great way to keep the party going after the live music, and you can add karaoke or a live saxophonist to the DJ. You can see prices on our <a href=\"/packages\">packages page</a>."
+     },
+     {
+      "q": "Can we have more than 2 hours of music?",
+      "a": "Absolutely. You can book two musicians back to back, or a solo musician followed by a band and DJ. Have a look at the <a href=\"/packages\">packages</a>."
+     },
+     {
+      "q": "Do you bring your own sound and lighting?",
+      "a": "Yes. Every booking includes professional audio and lighting, so there's nothing extra for you or your venue to organise."
+     },
+     {
+      "q": "Do you work with our venue?",
+      "a": "We play venues all over Ireland. Have a look at our <a href=\"/venues\">venues</a> page for some of the places we love, and tell us your venue when you enquire."
+     }
+    ]
+   }
+  ]
+ }
+}
