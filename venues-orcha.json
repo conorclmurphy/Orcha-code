@@ -280,8 +280,9 @@
      "capacity": "Up to 130 guests (60 seated)",
      "description": "The Brewery Bar is a truly unique space, full of character and charm. Accommodating up to 130 guests, with seating for up to 60, it's the perfect setting for a lively and memorable evening.",
      "video": {
-      "id": "8ff94fe9-7704-48d2-a0b6-eecf1483b164",
-      "seconds": 77
+      "id": "1fcbe6a6-939e-4007-8787-2fc26b63d776",
+      "seconds": 77,
+      "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
      },
      "gallery": [
       "2a1372a7-1c83-4913-a594-5ca5aecba705/IMG_6015.jpeg",
@@ -410,5 +411,5 @@
   }
  ],
  "videoBase": "https://video.squarespace-cdn.com/content/v1/68e3e2b74d7ab5214f499b88/",
- "formAccessKey": ""
+ "formAccessKey": "bdc888b2-b4a1-4b72-b6a9-df46a18bd995"
 }
