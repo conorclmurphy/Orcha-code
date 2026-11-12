@@ -400,6 +400,55 @@
    "gallery": []
   },
   {
+   "slug": "phil",
+   "name": "Phil",
+   "live": false,
+   "url": "https://www.orchaevents.com/phil",
+   "photo": "a7edfef4-34c5-4f69-b7f9-fd1a3cef8aa9/AD7A9901-CB68-4B3F-81D4-496871F67D67.png",
+   "bio": [
+    "Whether it's upbeat party music or laid-back acoustic vibes, Phil has all the bases covered. With a huge repertoire of over 700 songs, he is more than happy to take requests and be your very own human jukebox.",
+    "He has toured and performed across the UK, Ireland, Europe and America as a guitarist and vocalist with the legendary Sinéad O'Connor, making him incredibly experienced and ideal for any occasion."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [],
+   "gallery": []
+  },
+  {
+   "slug": "aaron",
+   "name": "Aaron",
+   "live": false,
+   "url": "https://www.orchaevents.com/aaron",
+   "photo": "a4d9a902-ef30-4591-900d-1339528fdfcb/IMG_5040.jpeg",
+   "photoPosition": "center 36%",
+   "bio": [
+    "Aaron is a solo singer-guitarist who plays parties and private events all over Ireland. His sets are made for the dance floor: upbeat and feel good, moving from current chart hits to party anthems and much-loved classics without a break in the energy.",
+    "He reads a room well and adjusts the set to suit it, so guests are singing along from the first song to the last. Requests are always welcome, which helps every event feel like it was put together just for you."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [],
+   "gallery": []
+  },
+  {
+   "slug": "keith",
+   "name": "Keith",
+   "live": true,
+   "url": "https://www.orchaevents.com/keith",
+   "photo": "8a5e2c77-208f-452b-9645-4e0897aed2bd/musician-r-keith-about.jpg",
+   "photoPosition": "center 22%",
+   "bio": [
+    "Keith is a talented guitarist and singer with a real love for traditional Irish music. Whether it's a lively trad set, much-loved Irish ballads or a few modern favourites with a trad twist, he brings a warm, authentic feel that gets everyone involved."
+   ],
+   "events": [],
+   "tradBand": false,
+   "duo": false,
+   "videos": [],
+   "gallery": []
+  },
+  {
    "slug": "trad",
    "name": "Modern Trad Band",
    "live": true,
@@ -572,18 +621,18 @@
    "facts": [
     {
      "label": "Solo musicians",
-     "value": "From €650"
+     "value": "From €750"
     },
     {
      "label": "Packages",
-     "value": "From €1,300"
+     "value": "From €1,500"
     }
    ],
    "events": [],
    "tradBand": false,
    "duo": false,
    "packages": {
-    "soloFrom": 650,
+    "soloFrom": 750,
     "djFrom": 750,
     "soloText": "One of our singer-guitarists. Includes a 2-hour performance plus professional audio and lighting.",
     "extras": [
@@ -610,12 +659,12 @@
      {
       "title": "Duo",
       "text": "Solo musician + fiddle or banjo.",
-      "price": "On its own from €1,150"
+      "price": "On its own from €1,350"
      },
      {
       "title": "Trio",
       "text": "Solo musician + fiddle + banjo.",
-      "price": "On its own from €1,500"
+      "price": "On its own from €1,750"
      }
     ],
     "djExtras": [
@@ -639,8 +688,8 @@
       "id": "double-trouble",
       "title": "Double Trouble",
       "hours": "4 hours of live music",
-      "text": "Solo musician + solo musician (2 × €650)",
-      "from": 1300,
+      "text": "Solo musician + solo musician (2 × €750)",
+      "from": 1500,
       "extras": [
        "second"
       ],
@@ -652,7 +701,7 @@
       "title": "The Celebration",
       "hours": "4 hours of live music",
       "text": "Solo musician + DJ",
-      "from": 1650,
+      "from": 1500,
       "extras": [
        "dj"
       ],
@@ -662,8 +711,8 @@
       "id": "party",
       "title": "The Party",
       "hours": "4 hours of live music",
-      "text": "Solo musician, followed by a trad band",
-      "from": 2250,
+      "text": "Solo musician, followed by a trad or jazz band",
+      "from": 2100,
       "extras": [
        "trad"
       ],
@@ -673,8 +722,8 @@
       "id": "full-experience",
       "title": "The Full Experience",
       "hours": "6 hours of live music",
-      "text": "Solo musician, followed by a trad band, then a DJ",
-      "from": 3250,
+      "text": "Solo musician, followed by a trad or jazz band, then a DJ",
+      "from": 2850,
       "extras": [
        "trad",
        "dj"
@@ -683,23 +732,28 @@
      }
     ],
     "note": "Prices are a starting guide and vary depending on the musicians you choose and the extras you add. Additional travel fees may apply based on your event location.",
-    "duoFrom": 1150,
-    "trioFrom": 1500,
+    "duoFrom": 1350,
+    "trioFrom": 1750,
     "bands": [
      {
       "title": "Trad duo",
       "kind": "trad",
-      "from": 1150
+      "from": 1350
      },
      {
       "title": "Trad trio",
       "kind": "trad",
-      "from": 1500
+      "from": 1750
      },
      {
-      "title": "Jazz band",
+      "title": "Jazz duo",
       "kind": "jazz",
-      "from": null
+      "from": 1350
+     },
+     {
+      "title": "Jazz trio",
+      "kind": "jazz",
+      "from": 1750
      },
      {
       "title": "Show band",

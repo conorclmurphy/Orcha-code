@@ -385,7 +385,7 @@ background:var(--vp-bg);color:var(--vp-ink);font-family:var(--vp-body);font-size
       + '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M6 15l6-6 6 6"/></svg></button>'
       + '<form class="vp-form" id="vp-enquire" novalidate>'
       + '<h2>' + esc(m.formTitle || ('Book ' + m.name)) + '</h2>'
-      + '<div class="vp-elist" hidden><span class="vp-elist-t">Also in your enquiry</span><ul></ul></div>'
+      + '<div class="vp-elist" hidden><span class="vp-elist-t">Also in your enquiry</span><div class="vp-el-bubbles"></div><ul></ul></div>'
       + '<div class="vp-row"><div class="vp-field"><label for="vp-fname">First name</label><input id="vp-fname" name="First name" autocomplete="given-name" required></div>'
       + '<div class="vp-field"><label for="vp-lname">Last name</label><input id="vp-lname" name="Last name" autocomplete="family-name" required></div></div>'
       + '<div class="vp-field"><label for="vp-email">Email</label><input id="vp-email" name="email" type="email" autocomplete="email" required></div>'
@@ -447,7 +447,7 @@ background:var(--vp-bg);color:var(--vp-ink);font-family:var(--vp-body);font-size
       var has = function (id) { return main === id || adds.indexOf(id) !== -1; };
       function match() {
         var solo = has('solo'), trad = has('trad'), dj = has('dj'), two = solo && soloN === '2';
-        var B = band(), isTrad = B.kind === 'trad';
+        var B = band(), isTrad = B.kind === 'trad' || B.kind === 'jazz';  // trad and jazz bands both count for the packages
         var base = solo && trad && isTrad && dj ? 'full-experience' : solo && trad && isTrad ? 'party' : solo && dj && !two && !trad ? 'celebration' : solo && two && !dj && !trad ? 'double-trouble' : '';
         var pk = P.list.filter(function (x) { return x.id === base; })[0];
         var tradPrice = B.from == null ? null : B.from;
@@ -626,7 +626,7 @@ background:var(--vp-bg);color:var(--vp-ink);font-family:var(--vp-body);font-size
       var v = vs[Math.floor(Math.random() * vs.length)], card = root.querySelector('.vp-venue-card');
       if (!card) return;
       card.href = v.url;
-      card.querySelector('img').src = vd.imageBase + (v.cardImg || v.heroImg) + '?format=750w';
+      var vp = v.cardImg || v.heroImg; card.querySelector('img').src = /^https?:/.test(vp) ? vp : vd.imageBase + vp + '?format=750w';
       card.querySelector('img').alt = v.name;
       card.querySelector('h3').textContent = 'Venue: ' + v.name;
       card.querySelector('p').textContent = [v.area, v.county].filter(Boolean).join(', ') + ' · Check out this venue';
@@ -883,7 +883,13 @@ background:var(--vp-bg);color:var(--vp-ink);font-family:var(--vp-body);font-size
           el.addEventListener('play', function () { wrap.classList.add('vp-playing'); el.setAttribute('controls', ''); });
           el.addEventListener('ended', function () { wrap.classList.remove('vp-playing'); });
           if (window.Hls && window.Hls.isSupported()) {
-            var hls = new window.Hls({ autoStartLoad: false, abrEwmaDefaultEstimate: 6000000, capLevelToPlayerSize: false, maxBufferLength: 10, startFragPrefetch: true });  // start in good quality instead of the lowest
+            var hls = new window.Hls({ autoStartLoad: false, abrEwmaDefaultEstimate: 6000000, capLevelToPlayerSize: false, maxBufferLength: 10, startFragPrefetch: true, testBandwidth: false });
+            // Always start in the top quality (1080p), on phones too, instead of letting the phone pick the low 360p version first
+            hls.on(window.Hls.Events.MANIFEST_PARSED, function (ev, d) {
+              var lv = d.levels || hls.levels, top = 0; lv.forEach(function (l, li) { if ((l.height || 0) > (lv[top].height || 0)) top = li; });
+              hls.startLevel = top;
+            });
+            try { el.disableRemotePlayback = true; } catch (e) {}  // lets iPhones (iOS 17.1+) use this player rather than their own
             hls.loadSource(src); hls.attachMedia(el);
             // Start buffering the first few seconds as the video scrolls near the screen, so it plays straight away when tapped
             var started = false, kick = function () { if (!started) { started = true; hls.startLoad(); } };

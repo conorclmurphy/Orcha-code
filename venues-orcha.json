@@ -269,10 +269,8 @@
       "000c1a81-a630-4031-ad16-31eb8018005c/IMG_5888.jpeg",
       "5f15bc41-9aef-40c3-8958-76ffc15a0358/IMG_5901.jpeg",
       "856583c1-ccb1-46ec-83d0-67d245b88756/IMG_5959.jpeg",
-      "150974c3-0bee-4799-a21f-40a58ca118f9/IMG_5909.jpeg",
       "b610bb8d-b2c0-408b-8f24-e46c8ecc2cc0/IMG_5998.jpeg",
-      "ddd22531-6f4c-454c-814e-ac1fa1581201/IMG_6011.jpeg",
-      "fc13af1f-64f3-456f-b17a-49488ea62373/IMG_6018.jpeg"
+      "ddd22531-6f4c-454c-814e-ac1fa1581201/IMG_6011.jpeg"
      ]
     },
     {
@@ -287,12 +285,15 @@
      "gallery": [
       "2a1372a7-1c83-4913-a594-5ca5aecba705/IMG_6015.jpeg",
       "764980da-2fa6-4181-a508-9b83d1284fc9/IMG_6048.jpeg",
-      "4327d52e-aa06-4b26-88c8-fcb85c7732cb/IMG_6027.jpeg",
-      "816212ad-a0e3-4cbc-b12b-8289a4f135b6/IMG_6039.jpeg",
       "c01accf1-c2a2-4ecb-96c6-482c21bcfe87/IMG_6050.jpeg",
       "90328f82-c4d0-4387-8a39-d6f0728294d0/IMG_6038.jpeg",
       "8bb97d1b-360f-497e-b998-cd9a1fcb1d12/IMG_6032.jpeg",
-      "f02d6cd2-e444-44ea-b4ef-14fc041150cc/IMG_6030.jpeg"
+      "f02d6cd2-e444-44ea-b4ef-14fc041150cc/IMG_6030.jpeg",
+      "fc13af1f-64f3-456f-b17a-49488ea62373/IMG_6018.jpeg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af398c1dc936e5923eb2e8a/1794349250021/jrmahons-IMG_6024.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af398c85501275eb9a63fb6/1794349256913/jrmahons-IMG_6025.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af398cf99ca47418e8e929b/1794349263915/jrmahons-IMG_6046.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af398e3c89668075585b328/1794349284019/jrmahons-IMG_6035.jpg"
      ]
     }
    ],
@@ -345,13 +346,27 @@
    "county": "Dublin",
    "capacity": 100,
    "foodStyle": "both",
-   "live": false,
-   "url": "",
+   "live": true,
+   "url": "https://www.orchaevents.com/fadestreetsocial",
    "cardImg": "531d9cde-aaf4-4a43-a987-42d5be96e136/wedding+rooftop+terrace.png",
-   "intro": "",
-   "rooms": [],
+   "intro": "Tucked between George's Street and Drury Street, Fade Street Social is Dylan McGrath's buzzing city-centre restaurant, with a heated rooftop terrace that's perfect for a party, work night out or celebration in the heart of Dublin.",
+   "rooms": [
+    {
+     "name": "The Rooftop Terrace",
+     "capacity": "Up to 100 guests",
+     "description": "Fade Street Social's rooftop terrace gives you a covered, heated outdoor space above the city, with festoon lights, greenery and red-brick Dublin rooftops all around. It works rain or shine, with its own bar and plenty of room to mingle. Food comes from the kitchen downstairs, from a relaxed barbecue to sharing plates, and live music sets the mood as the evening goes on.",
+     "gallery": [
+      "1794322355641-EM7EGTWVWUBQC2OKRBL0/rooftop+terrace.jpg",
+      "1794322317438-665OLD9RWWEWT8YQGE22/summer+on+the+rooftop+terrace.jpg"
+     ]
+    }
+   ],
    "gallery": [],
-   "videos": []
+   "videos": [],
+   "area": "Fade Street, Dublin 2",
+   "mapQuery": "Fade Street Social, 4-6 Fade Street, Dublin 2",
+   "heroImg": "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3376fcc0beb25120322d8/1794324335725/Mary-Elaine-Andy-Wedding-388.jpg",
+   "heroPos": "center 30%"
   },
   {
    "slug": "odonoghues",
@@ -360,26 +375,63 @@
    "capacity": 50,
    "foodStyle": "casual",
    "live": false,
-   "url": "",
+   "url": "https://www.orchaevents.com/odonoghues",
    "cardImg": "11fbb55b-b0ca-432a-b224-10c4154b40f2/IMG_5843.jpeg",
-   "intro": "",
-   "rooms": [],
+   "intro": "Just off Grafton Street on Suffolk Street, O'Donoghue's is a proper old-style Dublin pub with dark wood, cosy corners and a private function room for your party or celebration.",
+   "rooms": [
+    {
+     "name": "The Function Room",
+     "capacity": "Up to 50 guests",
+     "description": "O'Donoghue's function room gives you your own space in a classic city-centre pub, steps from Grafton Street and Trinity College. Warm lighting, dark timber and a well-stocked bar set a relaxed, traditional mood, and it's just the right size for a night of live music with friends, family or colleagues.",
+     "gallery": [
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34b2ccd044b5068eecb94/1794329388102/odonoghues-IMG_5840.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34acfaf322930df627a24/1794329296056/odonoghues-IMG_5777.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34adf82f0a0245cd21f52/1794329311662/odonoghues-IMG_5836.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34adf5ecb2f0f57f2099a/1794329311654/odonoghues-IMG_5812.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34acf7e4ede2bba739ba1/1794329296144/odonoghues-IMG_5780.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34acfaf322930df627a25/1794329296078/odonoghues-IMG_5792.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34acfb771315df2db7886/1794329296164/odonoghues-IMG_5783.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34b3aed0d2071673d0e8c/1794329402312/odonoghues-IMG_5847.jpg"
+     ]
+    }
+   ],
    "gallery": [],
-   "videos": []
+   "videos": [],
+   "area": "Suffolk Street, Dublin 2",
+   "mapQuery": "O'Donoghue's, 15 Suffolk Street, Dublin 2",
+   "heroImg": "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af34acfaf322930df627a24/1794329296056/odonoghues-IMG_5777.jpg"
   },
   {
    "slug": "kennedyswestlandrow",
    "name": "Kennedy's Westland Row",
    "county": "Dublin",
-   "capacity": 120,
+   "area": "Westland Row, Dublin 2",
+   "capacity": 150,
    "foodStyle": "casual",
-   "live": false,
-   "url": "",
+   "live": true,
+   "url": "https://www.orchaevents.com/kennedys",
    "cardImg": "8cc605b0-07eb-4ec5-816d-2681910a44ec/IMG_5634.jpeg",
-   "intro": "",
-   "rooms": [],
+   "intro": "Pouring pints on Westland Row since 1850, Kennedy's is a proper Dublin pub a few minutes' walk from Trinity College, with a private function room that's made for parties, work events and celebrations.",
+   "rooms": [
+    {
+     "name": "Kennedy's Station",
+     "capacity": "Up to 150 guests",
+     "description": "Kennedy's private function room gives you your own corner of a classic city pub for the night. Dark wood panelling, warm low lighting and a well-stocked bar set the mood, and the walls are hung with nods to the pub's literary past (Samuel Beckett and James Joyce both drank here). Food can be arranged from the kitchen, from Irish classics to more modern dishes.",
+     "gallery": [
+      "1794318949342-5ULSHCUB52W39E27CDTH/IMG_5637.jpeg",
+      "1794318950719-G3DSC76L90AVLYMDRUE7/IMG_5640.jpeg",
+      "1794318951131-FYRCLJAPW9MYNVJ6KID7/IMG_5644.jpeg",
+      "1794318949227-NGFUP9OCB0UO8UDATB6P/IMG_5619.jpeg",
+      "1794318952258-6O56HPHXF8LO1XLWANV5/IMG_5719.jpeg",
+      "1794318952813-5BNXDM7QYM6F48KRKEG7/IMG_5743.jpeg",
+      "8cc605b0-07eb-4ec5-816d-2681910a44ec/IMG_5634.jpeg"
+     ]
+    }
+   ],
    "gallery": [],
-   "videos": []
+   "videos": [],
+   "mapQuery": "Kennedy's, 30-32 Westland Row, Dublin 2",
+   "heroImg": "1794318953919-1Y6I6HFJCSWW59D9MZ12/IMG_5753.jpeg"
   },
   {
    "slug": "lennansyard",
@@ -387,13 +439,89 @@
    "county": "Dublin",
    "capacity": 100,
    "foodStyle": "casual",
-   "live": false,
-   "url": "",
-   "cardImg": "4383f3e6-7489-4830-8e75-09c9126cbe49/Screenshot+2026-08-25+at+15.37.28.png",
-   "intro": "",
-   "rooms": [],
+   "live": true,
+   "url": "https://www.orchaevents.com/lennansyard",
+   "cardImg": "1794325888611-57SYT40791TZED0X7S4Z/IMG_7593.jpeg",
+   "intro": "Set in restored Georgian stables and a coach house beside the Mansion House on Dawson Street, Lennan's Yard has a range of characterful spaces for parties, work events and celebrations.",
+   "rooms": [
+    {
+     "name": "The Whiskey Bar",
+     "capacity": "Up to 60 guests",
+     "description": "A moody, intimate lounge with dark timber, leather seating and a glowing back bar stacked with whiskeys, with doors out to its own little terrace for fresh air between sets. It's ideal for a smaller gathering with drinks, bites and live music.",
+     "gallery": [
+      "1794325768024-K297CDCIG2JTOT3TPBJY/IMG_7547.jpeg",
+      "1794325765477-BG5XE6FRJ780V37ZTEH7/IMG_7527.jpeg",
+      "1794325769600-SFUHXQJHE715R67YF3C7/IMG_7517.jpeg",
+      "1794325765414-Z9K6BKV3EUBPTQGS4K62/IMG_7526.jpeg",
+      "1794325771533-1EALNCXTY6E0TYLCJVVX/IMG_7544.jpeg"
+     ]
+    },
+    {
+     "name": "The Cocktail Bar",
+     "capacity": "Up to 100 guests",
+     "description": "A lively, stylish room with exposed brick, warm low lighting and a striking back bar under a mirrored lattice ceiling, opening out to the courtyard. With its own private bar, cocktails, finger food and a band or DJ, it's made for a party.",
+     "gallery": [
+      "1794325888611-57SYT40791TZED0X7S4Z/IMG_7593.jpeg",
+      "1794325892669-SYCWR5PK47LQ0HW14EJR/IMG_7565.jpeg",
+      "1794325888552-17JXONWEGGEA82MU50F5/IMG_7594.jpeg",
+      "1794325890937-G2V78GWLXWTDB1KKJDVP/IMG_7577.jpeg",
+      "1794325890098-8BV24DLF51MS9PIOKISB/IMG_7596.jpeg",
+      "1794325891578-TP0INVTPL21J6TLGVQ7I/IMG_7571.jpeg"
+     ]
+    },
+    {
+     "name": "The Stables",
+     "capacity": "Up to 50 guests",
+     "description": "A cosy, semi-private nook in the original Georgian stables, with the old stall railings still in place, exposed brick, long timber tables and low pendant lights. Perfect for a relaxed get-together with friends or colleagues.",
+     "gallery": [
+      "1794325970202-309P45B53TV5Z8DKGT8V/IMG_7606.jpeg",
+      "1794325970258-11L5ATWDFH8OQ4U3GVB3/IMG_7612.jpeg",
+      "1794325974156-LD40SRZVVCZUJ9I4AGX2/IMG_7616.jpeg",
+      "1794325972304-EOL34ZX3BK0HG23GQGJT/IMG_7613.jpeg",
+      "1794325972660-L7IZ3PSYG30ZBWCTKUGD/IMG_7608.jpeg"
+     ]
+    }
+   ],
    "gallery": [],
-   "videos": []
+   "videos": [],
+   "area": "Dawson Street, Dublin 2",
+   "mapQuery": "Lennan's Yard, 21A Dawson Street, Dublin 2",
+   "heroImg": "1794325888611-57SYT40791TZED0X7S4Z/IMG_7593.jpeg"
+  },
+  {
+   "slug": "peddlermacs",
+   "name": "Peddler Mac's",
+   "county": "Westmeath",
+   "location": "Athlone",
+   "area": "Church Street, Athlone",
+   "capacity": 120,
+   "foodStyle": "casual",
+   "live": true,
+   "url": "https://www.orchaevents.com/peddlermacs",
+   "cardImg": "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af33938fe5bda55f84d46ed/1794324793152/peddler-macs-7022.jpg",
+   "heroImg": "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af33938fe5bda55f84d46ed/1794324793152/peddler-macs-7022.jpg",
+   "intro": "In the heart of Athlone town, a stone's throw from the Shannon, Peddler Mac's is a family-run pub with live music every night and a covered courtyard beer garden that's all yours for the celebration.",
+   "rooms": [
+    {
+     "name": "The Courtyard Beer Garden",
+     "capacity": "Up to 120 guests",
+     "description": "Peddler Mac's covered courtyard is styled like an old Irish street, with traditional shopfronts like Evelyn's Arcade and the White Rabbit Emporium, gas-style lanterns, hanging greenery and barrel tables under a glass roof. It feels like you're outdoors whatever the weather, and it's made for a lively party or celebration, with drinks from the bar and live music, which is what this place does best.",
+     "gallery": [
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af33938fe5bda55f84d46ed/1794324793152/peddler-macs-7022.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3458b79fe310c59705218/1794327947586/peddler-macs-evelyns-arcade.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3457e8d90524ceff3ae11/1794327934327/peddler-macs-white-rabbit.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3393e87f9bb75aa2ffab6/1794324799074/peddler-macs-7125.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3457e3cc8332ac5cf4bfe/1794327934313/peddler-macs-snug.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3393e52fa3c769f43b341/1794324799011/peddler-macs-7122.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3458b553b795dd37a058f/1794327947556/peddler-macs-bottle-window.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3457e751cba12e4cbdf72/1794327934311/peddler-macs-pizza-oven.jpg",
+      "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3393ef14ecc2922402577/1794324799077/peddler-macs-7065.jpg"
+     ]
+    }
+   ],
+   "gallery": [],
+   "videos": [],
+   "mapQuery": "Peddler Mac's, Church Street, Athlone"
   },
   {
    "slug": "opium",

@@ -165,7 +165,7 @@
       var ev = ORDER.filter(function (e) { return o.events.indexOf(e) !== -1; });
       var tags = ev.map(function (e) { return e === 'ceremony' ? 'Ceremony' : (L[e] || e); });
       h += '<a class="ml-card" href="' + esc(o.url) + '" data-tags="' + esc(ev.concat(o.duo ? ['duo'] : []).concat(o.tradBand ? ['tradBand'] : []).join(' ')) + '">'
-        + '<div class="ml-img"><img src="' + esc(D.imageBase + (lp ? lp[0] : o.photo) + '?format=' + (SHARPER[o.slug] || size) + 'w') + '" alt="' + esc(o.name) + '" loading="' + (i < 4 ? 'eager' : 'lazy') + '" decoding="async"'
+        + '<div class="ml-img"><img src="' + esc((function (p) { return /^https?:/.test(p) ? p : D.imageBase + p + '?format=' + (SHARPER[o.slug] || size) + 'w'; })(lp ? lp[0] : o.photo)) + '" alt="' + esc(o.name) + '" loading="' + (i < 4 ? 'eager' : 'lazy') + '" decoding="async"'
         + ' style="object-position:' + esc(lp ? lp[1] : (o.cardPosition || o.photoPosition || 'center')) + '"><span class="ml-tags">' + tags.map(function (t) { return '<span class="ml-tag">' + esc(t) + '</span>'; }).join('') + '</span>' + WM + '<span class="ml-name">' + esc(o.name) + '</span><span class="ml-more">View profile →</span></div></a>';
     });
     h += '</div><details class="ml-about"><summary>About our musicians</summary><p>' + esc(INTRO) + '</p></details><div class="ml-more3"><h2>Explore more</h2><div class="ml-x">'
