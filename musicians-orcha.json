@@ -402,7 +402,7 @@
   {
    "slug": "phil",
    "name": "Phil",
-   "live": false,
+   "live": true,
    "url": "https://www.orchaevents.com/phil",
    "photo": "a7edfef4-34c5-4f69-b7f9-fd1a3cef8aa9/AD7A9901-CB68-4B3F-81D4-496871F67D67.png",
    "bio": [
@@ -412,13 +412,29 @@
    "events": [],
    "tradBand": false,
    "duo": false,
-   "videos": [],
+   "videos": [
+    {
+     "id": "7ccb33e1-1c37-4196-af95-c87e21d7570a",
+     "seconds": 67,
+     "shape": "tall"
+    },
+    {
+     "id": "6a3e1f39-7a3c-4aed-a2d0-a3833c0ae75b",
+     "seconds": 107,
+     "shape": "tall"
+    },
+    {
+     "id": "36673017-ca12-44bf-acee-8d731451d18c",
+     "seconds": 46,
+     "shape": "tall"
+    }
+   ],
    "gallery": []
   },
   {
    "slug": "aaron",
    "name": "Aaron",
-   "live": false,
+   "live": true,
    "url": "https://www.orchaevents.com/aaron",
    "photo": "a4d9a902-ef30-4591-900d-1339528fdfcb/IMG_5040.jpeg",
    "photoPosition": "center 36%",
@@ -429,7 +445,14 @@
    "events": [],
    "tradBand": false,
    "duo": false,
-   "videos": [],
+   "videos": [
+    {
+     "id": "c89ceb45-23e2-42f9-b2f6-f8171c19e5d5",
+     "seconds": 93,
+     "shape": "wide",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
    "gallery": []
   },
   {
@@ -445,7 +468,20 @@
    "events": [],
    "tradBand": false,
    "duo": false,
-   "videos": [],
+   "videos": [
+    {
+     "id": "e88af6b1-6d03-4ff6-85fb-670ba082677e",
+     "seconds": 66,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    },
+    {
+     "id": "9671ffc0-a13a-4729-9551-b698b5d8683f",
+     "seconds": 42,
+     "shape": "tall",
+     "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+    }
+   ],
    "gallery": []
   },
   {

@@ -365,8 +365,7 @@
    "videos": [],
    "area": "Fade Street, Dublin 2",
    "mapQuery": "Fade Street Social, 4-6 Fade Street, Dublin 2",
-   "heroImg": "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3376fcc0beb25120322d8/1794324335725/Mary-Elaine-Andy-Wedding-388.jpg",
-   "heroPos": "center 30%"
+   "heroImg": "1794322355641-EM7EGTWVWUBQC2OKRBL0/rooftop+terrace.jpg"
   },
   {
    "slug": "odonoghues",
@@ -425,7 +424,12 @@
       "1794318952258-6O56HPHXF8LO1XLWANV5/IMG_5719.jpeg",
       "1794318952813-5BNXDM7QYM6F48KRKEG7/IMG_5743.jpeg",
       "8cc605b0-07eb-4ec5-816d-2681910a44ec/IMG_5634.jpeg"
-     ]
+     ],
+     "video": {
+      "id": "4a5ea001-c31a-4fda-ac51-9de46a2be20a",
+      "seconds": 64,
+      "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+     }
     }
    ],
    "gallery": [],
@@ -454,7 +458,12 @@
       "1794325769600-SFUHXQJHE715R67YF3C7/IMG_7517.jpeg",
       "1794325765414-Z9K6BKV3EUBPTQGS4K62/IMG_7526.jpeg",
       "1794325771533-1EALNCXTY6E0TYLCJVVX/IMG_7544.jpeg"
-     ]
+     ],
+     "video": {
+      "id": "7fecd657-999c-415f-a5f6-5b013773ceda",
+      "seconds": 41,
+      "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+     }
     },
     {
      "name": "The Cocktail Bar",
@@ -467,7 +476,12 @@
       "1794325890937-G2V78GWLXWTDB1KKJDVP/IMG_7577.jpeg",
       "1794325890098-8BV24DLF51MS9PIOKISB/IMG_7596.jpeg",
       "1794325891578-TP0INVTPL21J6TLGVQ7I/IMG_7571.jpeg"
-     ]
+     ],
+     "video": {
+      "id": "fdceb88a-8117-4cdc-994d-cff5ef5b7f4d",
+      "seconds": 38,
+      "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+     }
     },
     {
      "name": "The Stables",
@@ -479,7 +493,12 @@
       "1794325974156-LD40SRZVVCZUJ9I4AGX2/IMG_7616.jpeg",
       "1794325972304-EOL34ZX3BK0HG23GQGJT/IMG_7613.jpeg",
       "1794325972660-L7IZ3PSYG30ZBWCTKUGD/IMG_7608.jpeg"
-     ]
+     ],
+     "video": {
+      "id": "f9b8b41d-51b2-4989-89dc-46e2330e06d5",
+      "seconds": 50,
+      "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+     }
     }
    ],
    "gallery": [],
@@ -516,7 +535,12 @@
       "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3458b553b795dd37a058f/1794327947556/peddler-macs-bottle-window.jpg",
       "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3457e751cba12e4cbdf72/1794327934311/peddler-macs-pizza-oven.jpg",
       "https://static1.squarespace.com/static/68e3e2b74d7ab5214f499b88/t/6af3393ef14ecc2922402577/1794324799077/peddler-macs-7065.jpg"
-     ]
+     ],
+     "video": {
+      "id": "5e732084-2fbb-43c5-a316-c15a6044ef5f",
+      "seconds": 57,
+      "base": "https://video.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/"
+     }
     }
    ],
    "gallery": [],
