@@ -97,7 +97,8 @@ font-family:"Nunito Sans","Work Sans",-apple-system,BlinkMacSystemFont,sans-seri
   fetch(DATA_URL, { cache: 'no-cache' })
     .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function (DATA) {
-      var VENUES = DATA.venues.map(function (v) {
+      // venues marked "listed": false (e.g. closed down) are left out of the search altogether
+      var VENUES = DATA.venues.filter(function (v) { return v.listed !== false; }).map(function (v) {
         var pic = v.cardImg || v.heroImg;
         return {
           name: v.name,
