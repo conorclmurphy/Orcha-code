@@ -1,41 +1,75 @@
-<!-- Orcha Events: Testimonials section on the home page (sits just above the enquiry form) -->
+<!-- Orcha Events: Testimonials on the home page (just above the enquiry form). Compact logo cards; tapping one opens the full review. -->
 <style>
-#orcha-testimonials{background:#212e21;padding:clamp(48px,7vw,96px) clamp(18px,5vw,64px);font-family:"Nunito Sans",sans-serif;color:#f4f3e8;position:relative;z-index:1}
-#orcha-testimonials *{box-sizing:border-box}
-#orcha-testimonials .ot-wrap{max-width:1180px;margin:0 auto}
-#orcha-testimonials h2{font-family:"Sansita",sans-serif;font-weight:700;font-size:clamp(32px,4.2vw,48px);line-height:1.1;color:#ebfc72;text-align:center;margin:0 0 clamp(26px,4vw,44px)}
-#orcha-testimonials .ot-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2.4vw,28px);align-items:stretch}
-#orcha-testimonials figure{margin:0;display:flex;flex-direction:column;padding:clamp(22px,3vw,36px);border-radius:20px;background:rgba(244,243,232,.05);border:1px solid rgba(235,252,114,.28)}
-#orcha-testimonials .ot-logo{height:150px;margin:0 0 22px;border-radius:14px;background:#fff;display:flex;align-items:center;justify-content:center;padding:18px;overflow:hidden}
-#orcha-testimonials .ot-logo img{max-width:min(100%,320px);max-height:100%;width:auto;height:auto;object-fit:contain;display:block}
-#orcha-testimonials .ot-mark{font-family:"Sansita",sans-serif;font-size:64px;line-height:.7;color:#ebfc72;height:34px}
-#orcha-testimonials blockquote{margin:0;padding:0;border:0;font-style:italic;font-size:16.5px;line-height:1.65;color:#f4f3e8}
-#orcha-testimonials blockquote p{margin:0 0 14px;font-size:inherit;line-height:inherit;color:inherit}
-#orcha-testimonials figcaption{margin-top:auto;padding-top:18px;border-top:1px solid rgba(235,252,114,.22);display:flex;flex-direction:column;gap:2px}
-#orcha-testimonials figcaption strong{font-family:"Sansita",sans-serif;font-weight:700;font-size:20px;color:#ebfc72}
-#orcha-testimonials figcaption span{font-size:14px;color:rgba(244,243,232,.75)}
-@media (max-width:820px){#orcha-testimonials .ot-grid{grid-template-columns:1fr}#orcha-testimonials blockquote{font-size:15.5px}}
+#orcha-testimonials{background:#212e21;padding:clamp(40px,6vw,80px) clamp(18px,5vw,64px);font-family:"Nunito Sans",sans-serif;color:#f4f3e8;position:relative;z-index:1}
+#orcha-testimonials *,#orcha-tlb *{box-sizing:border-box}
+#orcha-testimonials .ot-wrap{max-width:860px;margin:0 auto}
+#orcha-testimonials h2{font-family:"Sansita",sans-serif;font-weight:700;font-size:clamp(32px,4.2vw,48px);line-height:1.1;color:#ebfc72;text-align:center;margin:0 0 clamp(22px,3.4vw,36px)}
+#orcha-testimonials .ot-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(14px,2vw,22px)}
+#orcha-testimonials .ot-card{font:inherit;color:inherit;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:14px;padding:16px;margin:0;border-radius:20px;background:rgba(244,243,232,.05);border:1px solid rgba(235,252,114,.28);transition:border-color .2s,transform .2s,background .2s}
+#orcha-testimonials .ot-card:hover{border-color:#ebfc72;background:rgba(244,243,232,.09);transform:translateY(-2px)}
+#orcha-testimonials .ot-logo{height:120px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;padding:16px;overflow:hidden}
+#orcha-testimonials .ot-logo img{max-width:min(100%,280px);max-height:100%;width:auto;height:auto;object-fit:contain;display:block}
+#orcha-testimonials .ot-tease{font-style:italic;font-size:15.5px;line-height:1.55;color:#f4f3e8;margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+#orcha-testimonials .ot-foot{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-top:auto}
+#orcha-testimonials .ot-who strong,#orcha-tlb .ot-who strong{display:block;font-family:"Sansita",sans-serif;font-weight:700;font-size:19px;line-height:1.2;color:#ebfc72}
+#orcha-testimonials .ot-who span,#orcha-tlb .ot-who span{font-size:13.5px;color:rgba(244,243,232,.75)}
+#orcha-testimonials .ot-more{flex:none;font-size:13.5px;font-weight:700;color:#212e21;background:#ebfc72;border-radius:999px;padding:7px 14px;white-space:nowrap}
+@media (max-width:640px){#orcha-testimonials .ot-grid{grid-template-columns:1fr}#orcha-testimonials .ot-card{flex-direction:row;flex-wrap:wrap;align-items:center;gap:12px 14px;padding:14px}#orcha-testimonials .ot-logo{flex:0 0 108px;height:72px;padding:10px;border-radius:10px}#orcha-testimonials .ot-tease{display:none}#orcha-testimonials .ot-foot{flex:1;margin:0;align-items:center}#orcha-testimonials .ot-who strong{font-size:17px}#orcha-testimonials .ot-more{padding:6px 12px}}
+#orcha-tlb{position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.9);display:flex;align-items:center;justify-content:center;padding:16px;font-family:"Nunito Sans",sans-serif;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+#orcha-tlb[hidden]{display:none}
+#orcha-tlb .ot-box{position:relative;width:min(680px,100%);max-height:min(86vh,86dvh);overflow:auto;-webkit-overflow-scrolling:touch;background:#212e21;border:1px solid rgba(235,252,114,.35);border-radius:22px;padding:clamp(20px,3.5vw,36px);color:#f4f3e8}
+#orcha-tlb .ot-logo{height:110px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;padding:16px;margin:0 0 20px}
+#orcha-tlb .ot-logo img{max-width:min(100%,280px);max-height:100%;object-fit:contain;display:block}
+#orcha-tlb .ot-mark{font-family:"Sansita",sans-serif;font-size:60px;line-height:.7;color:#ebfc72;height:30px}
+#orcha-tlb blockquote{margin:0;padding:0;border:0;font-style:italic;font-size:16.5px;line-height:1.65}
+#orcha-tlb blockquote p{margin:0 0 14px;font-size:inherit;line-height:inherit;color:#f4f3e8}
+#orcha-tlb .ot-who{margin-top:18px;padding-top:16px;border-top:1px solid rgba(235,252,114,.22)}
+#orcha-tlb button{font:inherit;cursor:pointer;border-radius:50%;display:grid;place-items:center;color:#f4f3e8;background:rgba(0,0,0,.45);border:1px solid rgba(244,243,232,.35);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:0;transition:background .2s,border-color .2s}
+#orcha-tlb button:hover{background:rgba(235,252,114,.25);border-color:#ebfc72}
+#orcha-tlb .ot-x{position:absolute;top:16px;right:18px;width:44px;height:44px;font-size:26px;line-height:1;z-index:2}
+#orcha-tlb .ot-arr{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;z-index:2}
+#orcha-tlb .ot-arr svg{width:22px;height:22px}
+#orcha-tlb .ot-prev{left:18px}#orcha-tlb .ot-next{right:18px}
+#orcha-tlb .ot-count{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);font-size:14px;color:#f4f3e8;opacity:.8}
+@media (max-width:820px){#orcha-tlb{padding:64px 12px 44px;align-items:flex-start}#orcha-tlb .ot-box{max-height:100%}#orcha-tlb .ot-arr{top:auto;bottom:6px;transform:none;width:40px;height:40px}#orcha-tlb .ot-prev{left:12px}#orcha-tlb .ot-next{right:12px}#orcha-tlb .ot-x{top:12px;right:12px}#orcha-tlb blockquote{font-size:15.5px}}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
   if(location.pathname!=='/'&&location.pathname!=='/home')return;
   var e=document.getElementById('enquiremain');
   if(!e||document.getElementById('orcha-testimonials'))return;
-  var s=document.createElement('section');
-  s.id='orcha-testimonials';
-  s.innerHTML='<div class="ot-wrap"><h2>Testimonials</h2><div class="ot-grid">'
-  +'<figure><div class="ot-logo"><img loading="lazy" src="https://images.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/a9213756-0d3c-475b-9103-09b18757c2bb/orcha-testimonial-arthur-cox.jpg?format=750w" alt="Arthur Cox"></div><div class="ot-mark" aria-hidden="true">“</div><blockquote>'
-  +'<p>I just wanted to drop you a note to say that our musician was absolutely amazing at our summer party. Everyone had a fantastic time, and the music was a huge hit with the group.</p>'
-  +'<p>The atmosphere was exactly what we had hoped for, and we received lots of positive feedback from attendees throughout the evening.</p>'
-  +'<p>Thank you also for all of your help in organising everything. The entire process was seamless from start to finish.</p>'
-  +'<p>We will definitely be in touch with you again for future events.</p>'
-  +'</blockquote><figcaption><strong>Arthur Cox</strong><span>Summer party</span></figcaption></figure>'
-  +'<figure><div class="ot-logo"><img loading="lazy" src="https://images.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/a79c468d-f015-43d2-959a-7c0d990f063a/orcha-testimonial-two-circles.jpg?format=500w" alt="Two Circles"></div><div class="ot-mark" aria-hidden="true">“</div><blockquote>'
-  +'<p>A few weeks ago, Orcha Events provided the entertainment for one of our flagship events at the Guinness Storehouse, attended by more than 500 guests. The traditional Irish band created a fantastic atmosphere. Following the band, Conor performed as a solo musician, and he was a huge hit with our guests. In fact, his performance proved so popular that one of the event spaces reached capacity as attendees gathered to watch!</p>'
-  +'<p>From the initial communication and planning through to the on-the-day logistics and performances themselves, Orcha Events were a pleasure to work with and exceeded our expectations. The combination of the traditional Irish band and Conor’s solo performance brought fantastic energy and variety to the event and played a big part in making the evening such a success.</p>'
-  +'<p>I wouldn’t hesitate to recommend Orcha Events for any event and look forward to working with them again in the future. Their professionalism, organisation and quality of entertainment made the entire experience seamless, and they delivered an unforgettable evening for our guests.</p>'
-  +'</blockquote><figcaption><strong>Operations Manager, Two Circles</strong><span>Flagship event at the Guinness Storehouse</span></figcaption></figure>'
-  +'</div></div>';
+  var IMG='https://images.squarespace-cdn.com/content/v1/6a731d922765f009f402b3fd/';
+  var T=[
+   {who:'Arthur Cox',sub:'Summer party',logo:IMG+'a9213756-0d3c-475b-9103-09b18757c2bb/orcha-testimonial-arthur-cox.jpg?format=750w',p:[
+    'I just wanted to drop you a note to say that our musician was absolutely amazing at our summer party. Everyone had a fantastic time, and the music was a huge hit with the group.',
+    'The atmosphere was exactly what we had hoped for, and we received lots of positive feedback from attendees throughout the evening.',
+    'Thank you also for all of your help in organising everything. The entire process was seamless from start to finish.',
+    'We will definitely be in touch with you again for future events.']},
+   {who:'Operations Manager, Two Circles',sub:'Flagship event at the Guinness Storehouse',logo:IMG+'a79c468d-f015-43d2-959a-7c0d990f063a/orcha-testimonial-two-circles.jpg?format=500w',p:[
+    'A few weeks ago, Orcha Events provided the entertainment for one of our flagship events at the Guinness Storehouse, attended by more than 500 guests. The traditional Irish band created a fantastic atmosphere. Following the band, Conor performed as a solo musician, and he was a huge hit with our guests. In fact, his performance proved so popular that one of the event spaces reached capacity as attendees gathered to watch!',
+    'From the initial communication and planning through to the on-the-day logistics and performances themselves, Orcha Events were a pleasure to work with and exceeded our expectations. The combination of the traditional Irish band and Conor’s solo performance brought fantastic energy and variety to the event and played a big part in making the evening such a success.',
+    'I wouldn’t hesitate to recommend Orcha Events for any event and look forward to working with them again in the future. Their professionalism, organisation and quality of entertainment made the entire experience seamless, and they delivered an unforgettable evening for our guests.']}
+  ];
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  var s=document.createElement('section');s.id='orcha-testimonials';
+  s.innerHTML='<div class="ot-wrap"><h2>Testimonials</h2><div class="ot-grid">'+T.map(function(t,i){
+    return '<button type="button" class="ot-card" data-i="'+i+'" aria-label="Read the review from '+esc(t.who)+'"><div class="ot-logo"><img loading="lazy" src="'+t.logo+'" alt="'+esc(t.who)+'"></div><p class="ot-tease">“'+esc(t.p[0])+'</p><div class="ot-foot"><div class="ot-who"><strong>'+esc(t.who)+'</strong><span>'+esc(t.sub)+'</span></div><span class="ot-more">Read review</span></div></button>';
+  }).join('')+'</div></div>';
   e.parentNode.insertBefore(s,e);
+  var AL='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',AR='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var lb=document.createElement('div');lb.id='orcha-tlb';lb.hidden=true;lb.setAttribute('role','dialog');lb.setAttribute('aria-modal','true');lb.setAttribute('aria-label','Testimonial');
+  lb.innerHTML='<button type="button" class="ot-x" aria-label="Close">&times;</button><button type="button" class="ot-arr ot-prev" aria-label="Previous review">'+AL+'</button><div class="ot-box"></div><button type="button" class="ot-arr ot-next" aria-label="Next review">'+AR+'</button><span class="ot-count"></span>';
+  document.body.appendChild(lb);
+  var box=lb.querySelector('.ot-box'),cnt=lb.querySelector('.ot-count'),at=0;
+  function show(i){at=(i+T.length)%T.length;var t=T[at];
+    box.innerHTML='<div class="ot-logo"><img src="'+t.logo+'" alt="'+esc(t.who)+'"></div><div class="ot-mark" aria-hidden="true">“</div><blockquote>'+t.p.map(function(x){return '<p>'+esc(x)+'</p>'}).join('')+'</blockquote><div class="ot-who"><strong>'+esc(t.who)+'</strong><span>'+esc(t.sub)+'</span></div>';
+    box.scrollTop=0;cnt.textContent=(at+1)+' / '+T.length;lb.hidden=false;document.documentElement.style.overflow='hidden';}
+  function hide(){lb.hidden=true;document.documentElement.style.overflow='';}
+  s.addEventListener('click',function(ev){var c=ev.target.closest('.ot-card');if(c)show(+c.getAttribute('data-i'));});
+  lb.addEventListener('click',function(ev){if(ev.target===lb||ev.target.closest('.ot-x'))hide();else if(ev.target.closest('.ot-prev'))show(at-1);else if(ev.target.closest('.ot-next'))show(at+1);});
+  document.addEventListener('keydown',function(ev){if(lb.hidden)return;if(ev.key==='Escape')hide();else if(ev.key==='ArrowRight')show(at+1);else if(ev.key==='ArrowLeft')show(at-1);});
+  var ts=null;
+  lb.addEventListener('touchstart',function(ev){ts=ev.touches.length===1?{x:ev.touches[0].clientX,y:ev.touches[0].clientY}:null;},{passive:true});
+  lb.addEventListener('touchend',function(ev){if(!ts)return;var dx=ev.changedTouches[0].clientX-ts.x,dy=ev.changedTouches[0].clientY-ts.y;ts=null;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)show(at+(dx<0?1:-1));});
 });
 </script>
