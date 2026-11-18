@@ -352,9 +352,12 @@ background:var(--vp-bg);color:var(--vp-ink);font-family:var(--vp-body);font-size
     // Remember which musicians this visitor has opened, and show ones they haven't seen first.
     var seen = [];
     try { seen = JSON.parse(localStorage.getItem('orchaSeenMusicians') || '[]'); } catch (e) {}
-    if (seen.indexOf(m.slug) === -1) seen.push(m.slug);
+    // Keep the list in viewing order (latest last), so once everything has been seen
+    // the suggestions are the ones looked at longest ago, never the ones just viewed.
+    if (!Array.isArray(seen)) seen = [];
+    seen = seen.filter(function (x) { return x !== m.slug; }); seen.push(m.slug);
     try { localStorage.setItem('orchaSeenMusicians', JSON.stringify(seen)); } catch (e) {}
-    function isSeen(o) { return seen.indexOf(o.slug) !== -1 ? 1 : 0; }
+    function isSeen(o) { return seen.indexOf(o.slug); }
     others.sort(function (a, b) { return isSeen(a) - isSeen(b) || score(b) - score(a) || ((a.slug.charCodeAt(0) + seed) % 7) - ((b.slug.charCodeAt(0) + seed) % 7); });
     others = others.slice(0, 3);
     if (others.length && !m.builder && !m.packages && !m.related) {
