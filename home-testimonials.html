@@ -1,4 +1,4 @@
-<!-- Orcha Events: Testimonials on the home page (just above the enquiry form). Compact logo cards; tapping one opens the full review. -->
+<!-- Orcha Events home page: Testimonials (compact logo cards above the enquiry form; tapping one opens the full review) and the slim Trusted By logo strip -->
 <style>
 #orcha-testimonials{background:#212e21;padding:clamp(40px,6vw,80px) clamp(18px,5vw,64px);font-family:"Nunito Sans",sans-serif;color:#f4f3e8;position:relative;z-index:1}
 #orcha-testimonials *,#orcha-tlb *{box-sizing:border-box}
@@ -32,6 +32,16 @@
 #orcha-tlb .ot-prev{left:18px}#orcha-tlb .ot-next{right:18px}
 #orcha-tlb .ot-count{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);font-size:14px;color:#f4f3e8;opacity:.8}
 @media (max-width:820px){#orcha-tlb{padding:64px 12px 44px;align-items:flex-start}#orcha-tlb .ot-box{max-height:100%}#orcha-tlb .ot-arr{top:auto;bottom:6px;transform:none;width:40px;height:40px}#orcha-tlb .ot-prev{left:12px}#orcha-tlb .ot-next{right:12px}#orcha-tlb .ot-x{top:12px;right:12px}#orcha-tlb blockquote{font-size:15.5px}}
+/* Trusted By: a slim strip of logos that drifts along by itself and can be flicked sideways */
+#orcha-trusted{position:relative;margin:6px calc(-1 * clamp(0px,3vw,40px)) 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+#orcha-trusted .otb-row{display:flex;gap:14px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:6px 8%;cursor:grab}
+#orcha-trusted .otb-row::-webkit-scrollbar{display:none}
+#orcha-trusted .otb-t{flex:0 0 auto;width:190px;height:86px;border-radius:14px;background:#fff;display:flex;align-items:center;justify-content:center;padding:12px 18px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+#orcha-trusted .otb-t img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;pointer-events:none;-webkit-user-drag:none}
+@media (max-width:640px){#orcha-trusted .otb-row{gap:10px}#orcha-trusted .otb-t{width:138px;height:64px;padding:9px 13px;border-radius:12px}}
+/* Review viewer on phones: swipe between reviews (dots show where you are), no arrow buttons */
+#orcha-tlb .ot-dots{display:none}
+@media (max-width:820px){#orcha-tlb .ot-arr,#orcha-tlb .ot-count{display:none}#orcha-tlb{padding-bottom:52px}#orcha-tlb .ot-dots{display:flex;gap:8px;align-items:center;position:absolute;bottom:16px;left:50%;transform:translateX(-50%);font-size:13px;color:rgba(244,243,232,.8)}#orcha-tlb .ot-dots i{width:8px;height:8px;border-radius:50%;background:rgba(244,243,232,.35)}#orcha-tlb .ot-dots i.on{background:#ebfc72;width:22px;border-radius:99px}#orcha-tlb .ot-dots span{margin-left:6px}}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
@@ -58,12 +68,12 @@ document.addEventListener('DOMContentLoaded',function(){
   e.parentNode.insertBefore(s,e);
   var AL='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',AR='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var lb=document.createElement('div');lb.id='orcha-tlb';lb.hidden=true;lb.setAttribute('role','dialog');lb.setAttribute('aria-modal','true');lb.setAttribute('aria-label','Testimonial');
-  lb.innerHTML='<button type="button" class="ot-x" aria-label="Close">&times;</button><button type="button" class="ot-arr ot-prev" aria-label="Previous review">'+AL+'</button><div class="ot-box"></div><button type="button" class="ot-arr ot-next" aria-label="Next review">'+AR+'</button><span class="ot-count"></span>';
+  lb.innerHTML='<button type="button" class="ot-x" aria-label="Close">&times;</button><button type="button" class="ot-arr ot-prev" aria-label="Previous review">'+AL+'</button><div class="ot-box"></div><button type="button" class="ot-arr ot-next" aria-label="Next review">'+AR+'</button><span class="ot-count"></span><div class="ot-dots" aria-hidden="true"></div>';
   document.body.appendChild(lb);
-  var box=lb.querySelector('.ot-box'),cnt=lb.querySelector('.ot-count'),at=0;
+  var box=lb.querySelector('.ot-box'),cnt=lb.querySelector('.ot-count'),dots=lb.querySelector('.ot-dots'),at=0;
   function show(i){at=(i+T.length)%T.length;var t=T[at];
     box.innerHTML='<div class="ot-logo"><img src="'+t.logo+'" alt="'+esc(t.who)+'"></div><div class="ot-mark" aria-hidden="true">“</div><blockquote>'+t.p.map(function(x){return '<p>'+esc(x)+'</p>'}).join('')+'</blockquote><div class="ot-who"><strong>'+esc(t.who)+'</strong><span>'+esc(t.sub)+'</span></div>';
-    box.scrollTop=0;cnt.textContent=(at+1)+' / '+T.length;lb.hidden=false;document.documentElement.style.overflow='hidden';}
+    box.scrollTop=0;cnt.textContent=(at+1)+' / '+T.length;dots.innerHTML=T.map(function(_,i){return '<i'+(i===at?' class="on"':'')+'></i>'}).join('')+'<span>Swipe for the next review</span>';lb.hidden=false;document.documentElement.style.overflow='hidden';}
   function hide(){lb.hidden=true;document.documentElement.style.overflow='';}
   s.addEventListener('click',function(ev){var c=ev.target.closest('.ot-card');if(c)show(+c.getAttribute('data-i'));});
   lb.addEventListener('click',function(ev){if(ev.target===lb||ev.target.closest('.ot-x'))hide();else if(ev.target.closest('.ot-prev'))show(at-1);else if(ev.target.closest('.ot-next'))show(at+1);});
@@ -71,5 +81,28 @@ document.addEventListener('DOMContentLoaded',function(){
   var ts=null;
   lb.addEventListener('touchstart',function(ev){ts=ev.touches.length===1?{x:ev.touches[0].clientX,y:ev.touches[0].clientY}:null;},{passive:true});
   lb.addEventListener('touchend',function(ev){if(!ts)return;var dx=ev.changedTouches[0].clientX-ts.x,dy=ev.changedTouches[0].clientY-ts.y;ts=null;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)show(at+(dx<0?1:-1));});
+  // Trusted By: swap Squarespace's arrow carousel for a slim strip of the same logos (still edited in the page editor as before)
+  try{
+    var ttl=[].slice.call(document.querySelectorAll('.list-section-title')).filter(function(x){return /trusted by/i.test(x.textContent)})[0];
+    var car=ttl&&ttl.parentNode.querySelector('.user-items-list-carousel');
+    if(car){
+      var seen={},logos=[];
+      [].slice.call(car.querySelectorAll('img')).forEach(function(im){var u=(im.getAttribute('data-src')||im.src||'').split('?')[0];if(u&&!seen[u]){seen[u]=1;logos.push({u:u,alt:im.alt||''});}});
+      if(logos.length){
+        var tiles=logos.map(function(l){return '<div class="otb-t"><img loading="lazy" src="'+l.u+'?format=500w" alt="'+esc(l.alt)+'"></div>'}).join('');
+        var w=document.createElement('div');w.id='orcha-trusted';w.innerHTML='<div class="otb-row">'+tiles+tiles+tiles+'</div>';
+        car.style.display='none';car.parentNode.insertBefore(w,car.nextSibling);
+        var row=w.firstChild,hold=0,pos=0,still=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;
+        var third=function(){return row.scrollWidth/3};
+        var wait=function(){hold=Date.now()+2500};
+        ['pointerdown','touchstart','wheel'].forEach(function(n){row.addEventListener(n,wait,{passive:true})});
+        row.addEventListener('mouseenter',function(){hold=Infinity});row.addEventListener('mouseleave',function(){hold=Date.now()+400});
+        row.addEventListener('scroll',function(){var t=third();if(t>0){if(row.scrollLeft>=t*2)row.scrollLeft-=t;else if(row.scrollLeft<=4)row.scrollLeft+=t;}pos=row.scrollLeft;},{passive:true});
+        setTimeout(function(){row.scrollLeft=pos=third();},300);
+        var step=function(){if(!still&&Date.now()>hold&&row.scrollWidth>row.clientWidth){pos+=0.5;row.scrollLeft=pos;}requestAnimationFrame(step)};
+        requestAnimationFrame(step);
+      }
+    }
+  }catch(x){}
 });
 </script>
