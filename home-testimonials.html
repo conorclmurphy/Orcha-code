@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded',function(){
       if(logos.length){
         var tiles=logos.map(function(l){return '<div class="otb-t"><img loading="lazy" src="'+l.u+'?format=500w" alt="'+esc(l.alt)+'"></div>'}).join('');
         var w=document.createElement('div');w.id='orcha-trusted';w.innerHTML='<div class="otb-row">'+tiles+tiles+tiles+'</div>';
-        car.style.display='none';car.parentNode.insertBefore(w,car.nextSibling);
+        car.style.display='none';car.parentNode.insertBefore(w,car.nextSibling);var tsec=w.closest&&w.closest('section');if(tsec)tsec.style.backgroundColor='#212e21';
         var row=w.firstChild,hold=0,pos=0,still=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;
         var third=function(){return row.scrollWidth/3};
         var wait=function(){hold=Date.now()+2500};
